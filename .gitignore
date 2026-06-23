@@ -1,0 +1,10 @@
+node_modules/
+
+# Local-only media / sources (images are already embedded in the HTML)
+*.mp4
+photo_*.jpg
+*.backup.html
+
+# Editor / tooling
+.claude/
+.env

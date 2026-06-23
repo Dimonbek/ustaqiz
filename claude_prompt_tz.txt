@@ -1,0 +1,31 @@
+Umidaxon ismli professional dekorator (dekorator va vizual san'at ustasi) uchun premium va zamonaviy portfolio hamda o'quv akademiyasi veb-saytini yaratishingizni xohlayman. Sayt juda zamonaviy, premium darajada va foydalanuvchini o'ziga jalb qiladigan dizaynga (Dark Glassmorphic Style) ega bo'lishi kerak.
+
+Quyidagi sahifalar va funksiyalarni o'z ichiga olgan 5 sahifali to'liq vebsayt kodini (HTML, CSS va JS) yozib bering.
+
+### Texnik talablar va Sahifalar:
+
+1. **Bosh sahifa (index.html):**
+   - **Hero Section:** Chap tomonda Umidaxonning professional portret rasmi (photo_2026-06-18_09-22-59.jpg yoki mos keladigan rasm), o'ng tomonda uning ismi, "Professional Dekorator & Art Director" unvoni, qisqacha bio va ijtimoiy tarmoqlar (Telegram, Instagram, LinkedIn) tugmalari.
+   - **Infinite horizontal slider (Marquee):** Pastroqda u yaratgan bezaklar va ishlarining rasmlari (portfolio rasmlari) gorizontal holatda to'xtovsiz va silliq aylanib turishi kerak.
+   - **Kurslarga kirish:** Onlayn va offlayn kurslar haqida qisqacha ma'lumot va "Kurslarni ko'rish" tugmasi.
+
+2. **Biz haqimizda (about.html):**
+   - Umidaxonning dekoratsiya sohasidagi tajribasi, ijodiy yo'li va sertifikatlari galereyasi.
+
+3. **Kurslar (courses.html):**
+   - Onlayn va Offlayn kurslarni ajratib ko'rsatadigan chiroyli tab (tugmalar).
+   - Har bir kurs uchun mukammal kartochkalar (Kurs nomi, davomiyligi, narxi, darslar soni, "Ro'yxatdan o'tish" tugmasi).
+
+4. **Portfolio (portfolio.html):**
+   - Ishlar galereyasi. Rasmlar chiroyli grid (kataklar) ko'rinishida joylashishi va ustiga bosganda rasm kattalashib ko'rinishi (Lightbox effekti) kerak.
+
+5. **Bog'lanish / Ariza (contact.html):**
+   - Kurslarga yozilish yoki hamkorlik uchun premium ariza qoldirish formasi (Ism, Telefon, Kurs turi, Xabar).
+   - Ariza yuborilganda chiroyli "Muvaffaqiyatli yuborildi" animatsiyasi chiqishi kerak.
+
+### Dizayn Tizimi (Design System):
+- **Ranglar palitrasi:** To'q rangli mavzu (Dark Mode). Midnight blue va to'q binafsha rangli fonlar, neon binafsha (violet) va pushti (magenta/cyan) urg'u beruvchi ranglar.
+- **Glassmorphism:** Bloklar va kartochkalar yarim-shaffof oyna ko'rinishida bo'lib, orqasi xiralashgan (backdrop-filter: blur(10px)) bo'lsin.
+- **Shriftlar:** Google Fonts-dan "Outfit" va "Inter" shriftlari.
+- **Moslashuvchanlik (Responsive):** Mobil telefonlar, planshetlar va desktop ekranlariga to'liq moslashgan bo'lishi shart.
+- **Kod tuzilishi:** Barcha sahifalar umumiy style.css va main.js fayllaridan foydalanib ishlasin.
